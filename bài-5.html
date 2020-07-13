@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chương trình tính lãi ngân hàng</title>
+</head>
+<body>
+<script>
+    let a = parseFloat(prompt("Nhập số tiền cho vay hàng tháng: "));
+    let c = parseFloat(prompt("Nhập số lãi quất theo tháng:"));
+    let b = parseFloat(prompt("Nhập số tháng"));
+    let result = a * Math.pow((1 + c),b) - a;
+    console.log(result);
+    console.log(a);
+</script>
+</body>
+</html>
